@@ -1,4 +1,34 @@
-#root {
+:root {
+  --mainColor: #fff;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--mainColor);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+input[type="text"]{
+  width: 200px;
+  height: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.074);
+  border-radius: 0px;
+  padding: 5px;
+}
+
+.answer{
+  width: 200px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.067);
+    border-radius: 0px;
+    padding: 5px;
+    background-color: rgb(180, 245, 245);
+}
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,4 +69,4 @@
 
 .read-the-docs {
   color: #888;
-}
+} */
